@@ -1,9 +1,9 @@
+using UltEvents;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class InvokeEvent : MonoBehaviour
 {
-    public UnityEvent Event;
+    public UltEvent Event;
 
     public void Invoke()
     {
