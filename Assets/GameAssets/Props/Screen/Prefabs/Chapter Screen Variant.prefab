@@ -97,5 +97,52 @@ PrefabInstance:
     - {fileID: 4241162191685204440, guid: 10cb58f05647339419da68979306f194, type: 3}
     - {fileID: 5326753303487028298, guid: 10cb58f05647339419da68979306f194, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7674085302731219393, guid: 10cb58f05647339419da68979306f194, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6660729410540513858}
   m_SourcePrefab: {fileID: 100100000, guid: 10cb58f05647339419da68979306f194, type: 3}
+--- !u!114 &1045508221413312402 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5423280933559728959, guid: 10cb58f05647339419da68979306f194, type: 3}
+  m_PrefabInstance: {fileID: 5026361839616703661}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3440445113169976684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d804b466f50cdb042b5115e9b03c0636, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3440445113169976684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7674085302731219393, guid: 10cb58f05647339419da68979306f194, type: 3}
+  m_PrefabInstance: {fileID: 5026361839616703661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6660729410540513858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3440445113169976684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcbe0e042ee322d45bb96262c280f402, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _chapters:
+  - {fileID: 11400000, guid: b121be08e1db5934e816671ae8784445, type: 2}
+  - {fileID: 11400000, guid: 7020a6c6ce18355488b5063dfddaa322, type: 2}
+  _onChapterFinished:
+    _PersistentCalls:
+    - _Target: {fileID: 1045508221413312402}
+      _MemberName: ClickToContinue
+      _PersistentArguments:
+      - _Type: 3
+        _Int: 3
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
