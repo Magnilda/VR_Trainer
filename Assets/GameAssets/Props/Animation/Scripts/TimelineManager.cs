@@ -14,6 +14,6 @@ public class TimelineManager : MonoBehaviour
 
     private void OnTimelineFinished(PlayableDirector obj)
     {
-        ChapterManager.Instance.StartQAChapter();
+        ChapterManager.Instance.OnAnimationComplete();
     }
 }

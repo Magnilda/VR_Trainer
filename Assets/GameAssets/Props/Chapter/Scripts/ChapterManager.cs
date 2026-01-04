@@ -32,6 +32,11 @@ public class ChapterManager : MonoBehaviour
     private GameObject _chapterAnimationObject;
     [SerializeField, ReadOnly]
     private GameObject _chapterQAObject;
+    [SerializeField, ReadOnly]
+    private GameObject _chapterContinueObject;
+
+    [SerializeField]
+    private GameObject _animationCompletePrefab;
 
     private void Start()
     {
@@ -51,10 +56,17 @@ public class ChapterManager : MonoBehaviour
         _chapterAnimationObject = Instantiate(_chapters[_activeChapter].AnimationObjectToSpawn, transform);
     }
 
+    [Button("Debug Start Continue Chapter")]
+    public void OnAnimationComplete()
+    {
+        CleanupChapterAnimation();
+        _chapterContinueObject = Instantiate(_animationCompletePrefab, transform);
+    }
+
     [Button("Debug Start QA Chapter")]
     public void StartQAChapter()
     {
-        CleanupChapterAnimation();
+        CleanupContinueScreen();
 
         _chapterQAObject = Instantiate(_chapters[_activeChapter].QAObjectToSpawn, transform);
         QuestionManager questionManager = _chapterQAObject.GetComponent<QuestionManager>();
@@ -92,6 +104,15 @@ public class ChapterManager : MonoBehaviour
         {
             Destroy(_chapterQAObject);
             _chapterQAObject = null;
+        }
+    }
+
+    private void CleanupContinueScreen()
+    {
+        if (_chapterContinueObject != null)
+        {
+            Destroy(_chapterContinueObject);
+            _chapterContinueObject = null;
         }
     }
 }

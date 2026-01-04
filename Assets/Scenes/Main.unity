@@ -616,6 +616,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6660729410540513858, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
+      propertyPath: _animationCompletePrefab
+      value: 
+      objectReference: {fileID: 7358195643708565188, guid: e7357f3382e8a8e47ab737a83c335a47, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
