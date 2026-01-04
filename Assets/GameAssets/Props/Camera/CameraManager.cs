@@ -24,6 +24,8 @@ public class CameraManager : MonoBehaviour
     private float _goBackTimeInSeconds = 2.0f;
 
     private Transform _target;
+
+    [SerializeField]
     private Transform _cameraOrigin;
 
     public void FollowTarget(Transform target)
