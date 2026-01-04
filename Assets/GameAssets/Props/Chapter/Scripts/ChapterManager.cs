@@ -57,7 +57,8 @@ public class ChapterManager : MonoBehaviour
         CleanupChapterAnimation();
 
         _chapterQAObject = Instantiate(_chapters[_activeChapter].QAObjectToSpawn, transform);
-        //Inject question into QA object
+        QuestionManager questionManager = _chapterQAObject.GetComponent<QuestionManager>();
+        questionManager.InjectQuestion(_chapters[_activeChapter].Question);
     }
 
     [Button("Debug Finish Chapter")]

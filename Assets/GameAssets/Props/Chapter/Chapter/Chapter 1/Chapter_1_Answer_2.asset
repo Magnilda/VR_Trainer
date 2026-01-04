@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc6e60d9ac5c9f64bb34693e8bb83109, type: 3}
   m_Name: Chapter_1_Answer_2
   m_EditorClassIdentifier: 
-  isCorrect: 1
+  IsCorrect: 1
   Text: Cha 1 Answer 2
