@@ -53,7 +53,7 @@ public class ChapterManager : MonoBehaviour
         }
         _activeChapter = chapterIndex;
 
-        _chapterAnimationObject = Instantiate(_chapters[_activeChapter].AnimationObjectToSpawn, transform);
+        _chapterAnimationObject = Instantiate(_chapters[_activeChapter].AnimationObjectToSpawn);
     }
 
     [Button("Debug Start Continue Chapter")]
@@ -76,6 +76,8 @@ public class ChapterManager : MonoBehaviour
     [Button("Debug Finish Chapter")]
     public void FinishChapter()
     {
+        CleanupContinueScreen();
+        CleanupChapterAnimation();
         CleanupChapterQA();
 
         if (_activeChapter + 1 < _chapters.Count)
