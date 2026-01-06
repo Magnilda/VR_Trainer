@@ -711,6 +711,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6660729410540513858, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
+      propertyPath: _chapters.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6660729410540513858, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
       propertyPath: '_chapters.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: b121be08e1db5934e816671ae8784445, type: 2}
@@ -718,6 +722,10 @@ PrefabInstance:
       propertyPath: '_chapters.Array.data[1]'
       value: 
       objectReference: {fileID: 11400000, guid: 7020a6c6ce18355488b5063dfddaa322, type: 2}
+    - target: {fileID: 6660729410540513858, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
+      propertyPath: '_chapters.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 673b872712f09b542b0a71e129b80263, type: 2}
     - target: {fileID: 6660729410540513858, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
       propertyPath: _animationCompletePrefab
       value: 
