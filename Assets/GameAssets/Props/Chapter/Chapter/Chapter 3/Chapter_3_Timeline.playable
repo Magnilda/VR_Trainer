@@ -451,7 +451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 3152665987205546781, guid: 42b1993e82a0c9f4883fec38440edaa8, type: 3}
+  m_Clip: {fileID: 3152665987205546781, guid: f3f9e4dafdb44064893d9b0c458338a6, type: 3}
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
