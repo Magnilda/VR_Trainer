@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c21420c0869afc47a27724b2a794cb3, type: 3}
+  m_Name: Chapter 8
+  m_EditorClassIdentifier: 
+  ChapterName: 
+  AnimationObjectToSpawn: {fileID: 7144951600650906303, guid: 1456cdd34f30ed84aa3b23e353c13d39, type: 3}
+  QAObjectToSpawn: {fileID: 7216694014642079937, guid: 8d946d050ea2eed4ab818d76d066af0e, type: 3}
+  Question: {fileID: 11400000, guid: a8b8c80d13b81fb41801294251ca3346, type: 2}
