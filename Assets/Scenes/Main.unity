@@ -710,7 +710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6660729410540513858, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
       propertyPath: _chapters.Array.size
-      value: 3
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6660729410540513858, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
       propertyPath: '_chapters.Array.data[0]'
@@ -724,6 +724,26 @@ PrefabInstance:
       propertyPath: '_chapters.Array.data[2]'
       value: 
       objectReference: {fileID: 11400000, guid: 673b872712f09b542b0a71e129b80263, type: 2}
+    - target: {fileID: 6660729410540513858, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
+      propertyPath: '_chapters.Array.data[3]'
+      value: 
+      objectReference: {fileID: 11400000, guid: d41af569b130248478ebfd592aaf117d, type: 2}
+    - target: {fileID: 6660729410540513858, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
+      propertyPath: '_chapters.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: f0f41e9292b5afa46b22f4a46264a5ee, type: 2}
+    - target: {fileID: 6660729410540513858, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
+      propertyPath: '_chapters.Array.data[5]'
+      value: 
+      objectReference: {fileID: 11400000, guid: a8356dd10a1a11b43bc37c72598f8fd3, type: 2}
+    - target: {fileID: 6660729410540513858, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
+      propertyPath: '_chapters.Array.data[6]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 543644851c66f814198dbb8b1a16c5cc, type: 2}
+    - target: {fileID: 6660729410540513858, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
+      propertyPath: '_chapters.Array.data[7]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 90728ae7e1248b54cad9d75096a1201a, type: 2}
     - target: {fileID: 6660729410540513858, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
       propertyPath: _animationCompletePrefab
       value: 

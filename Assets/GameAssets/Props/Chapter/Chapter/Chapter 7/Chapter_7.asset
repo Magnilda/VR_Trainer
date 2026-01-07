@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c21420c0869afc47a27724b2a794cb3, type: 3}
+  m_Name: Chapter_7
+  m_EditorClassIdentifier: 
+  ChapterName: Veiligheid
+  AnimationObjectToSpawn: {fileID: 3552199851386506935, guid: 2f6f49676295e0241a4d4b4ce92e5e66, type: 3}
+  QAObjectToSpawn: {fileID: 8772215537273064816, guid: d89fbe9fd559bd44faac2cab195847a6, type: 3}
+  Question: {fileID: 11400000, guid: ef3025e8c92ace64fb72784cf2ca3a3c, type: 2}

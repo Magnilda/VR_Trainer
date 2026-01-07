@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -25,6 +26,9 @@ public class QuestionManager : MonoBehaviour
 
     [SerializeField]
     private GameObject _clickToContinueScreen;
+
+    [SerializeField]
+    private float _delayBeforeFinishingChapter = 5f;
 
     public void InjectQuestion(Question question)
     {
@@ -72,7 +76,13 @@ public class QuestionManager : MonoBehaviour
 
         yield return new WaitUntil(() => !_audioSource.isPlaying);
 
-        _clickToContinueScreen.SetActive(true);
+        StartCoroutine(ActionAfterDelays(_delayBeforeFinishingChapter, () => _clickToContinueScreen.SetActive(true)));
+    }
+
+    private IEnumerator ActionAfterDelays(float seconds, Action action)
+    {
+        yield return new WaitForSeconds(seconds);
+        action?.Invoke();
     }
 
     public void NextChapter()

@@ -38,9 +38,6 @@ public class ChapterManager : MonoBehaviour
     private GameObject _chapterContinueObject;
 
     [SerializeField]
-    private float _delayBeforeFinishingChapter = 5f;
-
-    [SerializeField]
     private GameObject _animationCompletePrefab;
 
     private void Start()
@@ -81,11 +78,6 @@ public class ChapterManager : MonoBehaviour
     [Button("Debug Finish Chapter")]
     public void FinishChapter()
     {
-        StartCoroutine(ActionAfterDelays(_delayBeforeFinishingChapter, InternalFinishChapter));
-    }
-
-    private void InternalFinishChapter()
-    {
         CleanupContinueScreen();
         CleanupChapterAnimation();
         CleanupChapterQA();
@@ -99,12 +91,6 @@ public class ChapterManager : MonoBehaviour
             Debug.Log("All chapters completed!");
             _onChapterFinished?.Invoke();
         }
-    }
-
-    private IEnumerator ActionAfterDelays(float seconds, Action action)
-    {
-        yield return new WaitForSeconds(seconds);
-        action?.Invoke();
     }
 
     private void CleanupChapterAnimation()

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c21420c0869afc47a27724b2a794cb3, type: 3}
+  m_Name: Chapter_6
+  m_EditorClassIdentifier: 
+  ChapterName: Controllers
+  AnimationObjectToSpawn: {fileID: 1976934677397680220, guid: a8c2e67931ebba347a1b33bc7d3c0db1, type: 3}
+  QAObjectToSpawn: {fileID: 5307448482326793972, guid: d4b63c91247661849b970fd57de01a0d, type: 3}
+  Question: {fileID: 11400000, guid: ec681f7d83810384296cc913883f399c, type: 2}
