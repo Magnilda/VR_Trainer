@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c21420c0869afc47a27724b2a794cb3, type: 3}
   m_Name: Chapter 7
   m_EditorClassIdentifier: 
-  ChapterName: 
+  ChapterName: Veiligheid
   AnimationObjectToSpawn: {fileID: 3552199851386506935, guid: 2f6f49676295e0241a4d4b4ce92e5e66, type: 3}
   QAObjectToSpawn: {fileID: 8772215537273064816, guid: d89fbe9fd559bd44faac2cab195847a6, type: 3}
   Question: {fileID: 11400000, guid: ef3025e8c92ace64fb72784cf2ca3a3c, type: 2}

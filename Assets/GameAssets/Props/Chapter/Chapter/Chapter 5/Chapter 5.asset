@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c21420c0869afc47a27724b2a794cb3, type: 3}
   m_Name: Chapter 5
   m_EditorClassIdentifier: 
-  ChapterName: 
+  ChapterName: Beeld Aanpassen
   AnimationObjectToSpawn: {fileID: 8230492225413711462, guid: 277c95822d9541f40aff8d2887996896, type: 3}
   QAObjectToSpawn: {fileID: 8394576327591288724, guid: e39fba775b1ce154ebf85d9aa8def3de, type: 3}
   Question: {fileID: 11400000, guid: 0bc24b7652b89f544b39c36daef3014f, type: 2}
