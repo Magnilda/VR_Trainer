@@ -1,5 +1,7 @@
 using SaintsField;
 using SaintsField.Playa;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using UltEvents;
 using UnityEngine;
@@ -34,6 +36,9 @@ public class ChapterManager : MonoBehaviour
     private GameObject _chapterQAObject;
     [SerializeField, ReadOnly]
     private GameObject _chapterContinueObject;
+
+    [SerializeField]
+    private float _delayBeforeFinishingChapter = 5f;
 
     [SerializeField]
     private GameObject _animationCompletePrefab;
@@ -76,6 +81,11 @@ public class ChapterManager : MonoBehaviour
     [Button("Debug Finish Chapter")]
     public void FinishChapter()
     {
+        StartCoroutine(ActionAfterDelays(_delayBeforeFinishingChapter, InternalFinishChapter));
+    }
+
+    private void InternalFinishChapter()
+    {
         CleanupContinueScreen();
         CleanupChapterAnimation();
         CleanupChapterQA();
@@ -89,6 +99,12 @@ public class ChapterManager : MonoBehaviour
             Debug.Log("All chapters completed!");
             _onChapterFinished?.Invoke();
         }
+    }
+
+    private IEnumerator ActionAfterDelays(float seconds, Action action)
+    {
+        yield return new WaitForSeconds(seconds);
+        action?.Invoke();
     }
 
     private void CleanupChapterAnimation()
