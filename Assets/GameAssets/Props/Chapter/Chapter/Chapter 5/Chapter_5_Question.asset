@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31b0e986ff47d1c409887de990af3c2e, type: 3}
   m_Name: Chapter_5_Question
   m_EditorClassIdentifier: 
-  QuestionText: 
+  QuestionText: Welke van deze antwoorden helpt niet met een scherpere beeld krijgen?
   Answers:
   - {fileID: 11400000, guid: 1f2a7c8ef42d56f4eb9eeed3a9233896, type: 2}
   - {fileID: 11400000, guid: 7ecf43899e617c5459f6e5694011150c, type: 2}

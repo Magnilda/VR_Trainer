@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31b0e986ff47d1c409887de990af3c2e, type: 3}
   m_Name: Chapter_6_Question
   m_EditorClassIdentifier: 
-  QuestionText: 
+  QuestionText: Hoe kan ik het verschil zien tussen de linker en rechter controller?
   Answers:
   - {fileID: 11400000, guid: 0a3ee159e14c0f649bf4c80f4ec6464c, type: 2}
   - {fileID: 11400000, guid: bdd63f10695137b4ea5e6d8b4d646882, type: 2}

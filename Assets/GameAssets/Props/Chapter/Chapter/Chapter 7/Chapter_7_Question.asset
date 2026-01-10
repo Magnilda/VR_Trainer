@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31b0e986ff47d1c409887de990af3c2e, type: 3}
   m_Name: Chapter_7_Question
   m_EditorClassIdentifier: 
-  QuestionText: 
+  QuestionText: Wat kan je doen om ongelukken te vermijden?
   Answers:
   - {fileID: 11400000, guid: 43a1552f7fafd074ca4518e8745903ed, type: 2}
   - {fileID: 11400000, guid: 38ce81b91e1e66e4e8e1744ec301d83d, type: 2}

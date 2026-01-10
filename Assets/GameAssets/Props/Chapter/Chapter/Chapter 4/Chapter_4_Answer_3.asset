@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc6e60d9ac5c9f64bb34693e8bb83109, type: 3}
   m_Name: Chapter_4_Answer_3
   m_EditorClassIdentifier: 
-  IsCorrect: 0
-  Text: 
+  IsCorrect: 1
+  Text: "Zij-bandjes losdraaien \u2192 headset opdoen \u2192 vastdraaien \u2192 bovenste
+    klittenband verstellen"

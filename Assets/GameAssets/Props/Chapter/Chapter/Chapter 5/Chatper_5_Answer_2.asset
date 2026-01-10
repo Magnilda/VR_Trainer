@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc6e60d9ac5c9f64bb34693e8bb83109, type: 3}
   m_Name: Chatper_5_Answer_2
   m_EditorClassIdentifier: 
-  IsCorrect: 0
-  Text: 
+  IsCorrect: 1
+  Text: De kijkhoek aanpassen in de instellingen
