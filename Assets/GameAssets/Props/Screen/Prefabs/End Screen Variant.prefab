@@ -10,11 +10,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 790677804426491012, guid: 10cb58f05647339419da68979306f194, type: 3}
       propertyPath: m_text
-      value: -- Click to Restart --
+      value: Opnieuw
+      objectReference: {fileID: 0}
+    - target: {fileID: 790677804426491012, guid: 10cb58f05647339419da68979306f194, type: 3}
+      propertyPath: m_fontSize
+      value: 49.35
       objectReference: {fileID: 0}
     - target: {fileID: 6127015646134662550, guid: 10cb58f05647339419da68979306f194, type: 3}
       propertyPath: m_text
-      value: End Screen
+      value: Einde Tutorial
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127015646134662550, guid: 10cb58f05647339419da68979306f194, type: 3}
+      propertyPath: m_fontSize
+      value: 136.55
       objectReference: {fileID: 0}
     - target: {fileID: 6806070050814077827, guid: 10cb58f05647339419da68979306f194, type: 3}
       propertyPath: m_Pivot.x

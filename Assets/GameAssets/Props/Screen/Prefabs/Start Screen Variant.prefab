@@ -14,7 +14,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6127015646134662550, guid: 10cb58f05647339419da68979306f194, type: 3}
       propertyPath: m_text
-      value: Start Screen
+      value: VR Tutorial
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127015646134662550, guid: 10cb58f05647339419da68979306f194, type: 3}
+      propertyPath: m_fontSize
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 6806070050814077827, guid: 10cb58f05647339419da68979306f194, type: 3}
       propertyPath: m_Pivot.x
@@ -99,6 +103,26 @@ PrefabInstance:
     - target: {fileID: 7674085302731219393, guid: 10cb58f05647339419da68979306f194, type: 3}
       propertyPath: m_Name
       value: Start Screen Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9085107832383107547, guid: 10cb58f05647339419da68979306f194, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9085107832383107547, guid: 10cb58f05647339419da68979306f194, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9085107832383107547, guid: 10cb58f05647339419da68979306f194, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 2.8644104
+      objectReference: {fileID: 0}
+    - target: {fileID: 9085107832383107547, guid: 10cb58f05647339419da68979306f194, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9085107832383107547, guid: 10cb58f05647339419da68979306f194, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -58.508347
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

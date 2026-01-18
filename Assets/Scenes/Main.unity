@@ -620,6 +620,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 134771311}
     m_Modifications:
+    - target: {fileID: 1063489284306940763, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1996569977496016686, guid: 2fa65d7d4b70b214a918480acf33eaba, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -861,6 +865,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7962432767730871285, guid: aa08b137272cce5469fa0483b81a371f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8857213732854447087, guid: aa08b137272cce5469fa0483b81a371f, type: 3}
       propertyPath: m_Name
       value: End Screen
@@ -904,6 +912,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5582072250048487702, guid: b3fab921561bb174c9fe3748fca434c8, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6421178412772356364, guid: b3fab921561bb174c9fe3748fca434c8, type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8753966781264112468, guid: b3fab921561bb174c9fe3748fca434c8, type: 3}
