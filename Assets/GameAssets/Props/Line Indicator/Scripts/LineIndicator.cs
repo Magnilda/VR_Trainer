@@ -30,7 +30,11 @@ public class LineIndicator : MonoBehaviour
         _endCircle.position = _endCircleFollowTarget.position;
 
         _startCircle.LookAt(_camera.transform);
-        _endCircle.LookAt(_camera.transform);
+
+        Vector3 viewportPoint = _camera.WorldToViewportPoint(_endCircle.position);
+        viewportPoint.z = _camera.nearClipPlane;
+        Vector3 pointOnNearPlane = _camera.ViewportToWorldPoint(viewportPoint);
+        _endCircle.LookAt(pointOnNearPlane);
 
         _lineRenderer.SetPosition(0, _startCircle.position);
         _lineRenderer.SetPosition(1, _endCircle.position);
