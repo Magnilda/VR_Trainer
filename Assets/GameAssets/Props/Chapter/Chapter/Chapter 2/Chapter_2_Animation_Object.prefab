@@ -773,8 +773,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1814723895056824333, guid: e7357f3382e8a8e47ab737a83c335a47, type: 3}
+      propertyPath: m_text
+      value: Naar het volgende hoofstuk!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814723895056824333, guid: e7357f3382e8a8e47ab737a83c335a47, type: 3}
       propertyPath: m_fontSize
-      value: 110
+      value: 95.25
       objectReference: {fileID: 0}
     - target: {fileID: 1814723895056824333, guid: e7357f3382e8a8e47ab737a83c335a47, type: 3}
       propertyPath: m_enableAutoSizing
