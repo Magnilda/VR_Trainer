@@ -48,8 +48,12 @@ public class QuestionManager : MonoBehaviour
     {
         if (_isAnswered) return;
         _isAnswered = true;
-
-        StartCoroutine(PlayAnswerVO(selectedAnswer, selectedAnswer.GetAnswer.IsCorrect ? _currectQuestion.CorrectAnswerVO : _currectQuestion.IncorrectAnswerVO));
+        AudioClip voClip = selectedAnswer.GetAnswer.IsCorrect ? _currectQuestion.CorrectAnswerVO : _currectQuestion.IncorrectAnswerVO;
+        if (_currectQuestion.AllAnswersCorrect)
+        {
+            voClip = _currectQuestion.AllcorrectAnswerVO;
+        }
+        StartCoroutine(PlayAnswerVO(selectedAnswer, voClip));
     }
 
     private IEnumerator PlayAnswerVO(AnswerManager selectedAnswer, AudioClip voClip)

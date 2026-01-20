@@ -8,4 +8,6 @@ public class Question : ScriptableObject
     public List<Answer> Answers;
     public AudioClip CorrectAnswerVO;
     public AudioClip IncorrectAnswerVO;
+    public AudioClip AllcorrectAnswerVO;
+    public bool AllAnswersCorrect;
 }
