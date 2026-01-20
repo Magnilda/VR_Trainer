@@ -105,6 +105,23 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   m_PostPlaybackState: 3
+--- !u!114 &-7511177374725552347
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: f5d43ad67f62ea34a88de98a08b62899, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 1
 --- !u!114 &-6501705231550158645
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -592,23 +609,6 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   m_PostPlaybackState: 3
---- !u!114 &-3263349167180213269
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
-  m_Name: AudioPlayableAsset
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: f5d43ad67f62ea34a88de98a08b62899, type: 3}
-  m_Loop: 0
-  m_bufferingTime: 0.1
-  m_ClipProperties:
-    volume: 1
 --- !u!114 &-3150239234460111612
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1997,7 +1997,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 17.933333333333334
+    m_Start: 19.899115646258505
     m_ClipIn: 0
     m_Asset: {fileID: 6412037836170302278}
     m_Duration: 3.47500612319428
@@ -2030,7 +2030,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Cha_7_Anim_1
   - m_Version: 1
-    m_Start: 21.408339456527614
+    m_Start: 23.374121769452785
     m_ClipIn: 0
     m_Asset: {fileID: 4287169031486072229}
     m_Duration: 9.508327210139054
@@ -2063,7 +2063,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Cha_7_Anim_2
   - m_Version: 1
-    m_Start: 51.43333333333334
+    m_Start: 53.39911564625851
     m_ClipIn: 0
     m_Asset: {fileID: -4130684802632580014}
     m_Duration: 7.166666666666664
@@ -2096,7 +2096,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Cha_7_Anim_3
   - m_Version: 1
-    m_Start: 65.09741496598637
+    m_Start: 67.06319727891155
     m_ClipIn: 0
     m_Asset: {fileID: 723945253781965624}
     m_Duration: 12.91925170068027
@@ -2147,7 +2147,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Cha_7_Anim_4
   - m_Version: 1
-    m_Start: 47.016666666666666
+    m_Start: 48.98244897959184
     m_ClipIn: 0
     m_Asset: {fileID: 1807272660108226252}
     m_Duration: 4.416666666666671
@@ -2201,7 +2201,7 @@ MonoBehaviour:
     m_Start: 6.983333333333333
     m_ClipIn: 2.466666666666667
     m_Asset: {fileID: 2647645717606542626}
-    m_Duration: 10.95
+    m_Duration: 12.91578231292517
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6461464662262864708}
     m_EaseInDuration: 0
@@ -2231,7 +2231,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Cha_7_Anim_5
   - m_Version: 1
-    m_Start: 30.916666666666668
+    m_Start: 32.88244897959184
     m_ClipIn: 0
     m_Asset: {fileID: 961973338256561474}
     m_Duration: 16.099999999999998
@@ -2682,57 +2682,6 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: VO_Veiligheid_5
   - m_Version: 1
-    m_Start: 20.118367346938776
-    m_ClipIn: 0
-    m_Asset: {fileID: -3263349167180213269}
-    m_Duration: 14.106122448979592
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 7843651853287399469}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: VO_Veiligheid_02
-  - m_Version: 1
     m_Start: 4.016666666666667
     m_ClipIn: 0
     m_Asset: {fileID: 8897508823348453076}
@@ -2783,6 +2732,75 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: VO_Veiligheid_01
+  - m_Version: 1
+    m_Start: 19.899115646258505
+    m_ClipIn: 0
+    m_Asset: {fileID: -7511177374725552347}
+    m_Duration: 20.715102040816326
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 7843651853287399469}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: VO_Veiligheid_02
   m_Markers:
     m_Objects: []
   m_TrackProperties:
