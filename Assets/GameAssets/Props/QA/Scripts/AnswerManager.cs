@@ -21,6 +21,8 @@ public class AnswerManager : MonoBehaviour
     public Answer GetAnswer => _currentAnswer;
     private Answer _currentAnswer;
 
+    public bool IsCorrect => _currentAnswer.IsCorrect;
+
     private Action<AnswerManager> _onQuestionAnswered;
 
     public void InjectAnswer(Answer answer, Action<AnswerManager> OnQuestionAnswer)

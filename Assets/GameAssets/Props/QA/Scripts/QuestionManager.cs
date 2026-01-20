@@ -59,7 +59,13 @@ public class QuestionManager : MonoBehaviour
 
         if (selectedAnswer.GetAnswer.IsCorrect)
         {
-            selectedAnswer.HighlightAnswer(true);
+            foreach(var answer in _answerManagers)
+            {
+                if (answer.IsCorrect)
+                {
+                    answer.HighlightAnswer(true);
+                }
+            }
         }
         else
         {
@@ -68,7 +74,6 @@ public class QuestionManager : MonoBehaviour
                 if (answerManager.GetAnswer.IsCorrect)
                 {
                     answerManager.HighlightAnswer(true);
-                    break;
                 }
             }
             selectedAnswer.HighlightAnswer(false);
