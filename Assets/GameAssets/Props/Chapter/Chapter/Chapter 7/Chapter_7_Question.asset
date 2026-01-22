@@ -19,3 +19,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5197eee15dc76b647af2d52f32051ab5, type: 2}
   CorrectAnswerVO: {fileID: 8300000, guid: 8f5cbf518b71086478a97e6ec2aeb777, type: 3}
   IncorrectAnswerVO: {fileID: 8300000, guid: 64751d019ff72084492c94b4dedbe14b, type: 3}
+  AllcorrectAnswerVO: {fileID: 8300000, guid: 59c454386b1aaf944a9c9d0092fffe32, type: 3}
+  AllAnswersCorrect: 0

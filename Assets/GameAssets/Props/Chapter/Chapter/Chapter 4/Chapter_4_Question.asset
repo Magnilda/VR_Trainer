@@ -17,5 +17,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3d456210b0989ad46b45fd4a9b19188a, type: 2}
   - {fileID: 11400000, guid: 92d56b8eadd53984abcfb31831332fb7, type: 2}
   - {fileID: 11400000, guid: 09913578a038ff140a41f018c9504839, type: 2}
-  CorrectAnswerVO: {fileID: 0}
-  IncorrectAnswerVO: {fileID: 0}
+  CorrectAnswerVO: {fileID: 8300000, guid: 8f5cbf518b71086478a97e6ec2aeb777, type: 3}
+  IncorrectAnswerVO: {fileID: 8300000, guid: 64751d019ff72084492c94b4dedbe14b, type: 3}
+  AllcorrectAnswerVO: {fileID: 8300000, guid: 59c454386b1aaf944a9c9d0092fffe32, type: 3}
+  AllAnswersCorrect: 0
