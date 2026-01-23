@@ -8,17 +8,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: VRHeadsetRig_base_Mat_Elite_Strap
-    second: {fileID: 2100000, guid: 346c765a8f274bc4899e3d8b0b3f6eb7, type: 2}
+    second: {fileID: 2100000, guid: 2f996102d59058440bb4d85a2902b372, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: VRHeadsetRig_base_Mat_VR_Controllers
-    second: {fileID: 2100000, guid: b0d693784159de54a800ce27239192df, type: 2}
+    second: {fileID: 2100000, guid: 57729ae167dce7344a8790995eea9352, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: VRHeadsetRig_base_Mat_VR_Headset
-    second: {fileID: 2100000, guid: 7aae322dec8496344b207f8d2a2bdef1, type: 2}
+    second: {fileID: 2100000, guid: c37da403c722ccc4cbaa9546a8ae904c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,37 @@ guid: e98ff7e9c10194c42a61cf126d024bb2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyMechanic_Rigv2_model_lambert2
+    second: {fileID: 2100000, guid: 3f5ee750bbaf28c45b569e5891826e2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyMechanic_Rigv3_model_lambert2
+    second: {fileID: 2100000, guid: 3f5ee750bbaf28c45b569e5891826e2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Elite_Strap
+    second: {fileID: 2100000, guid: 2f996102d59058440bb4d85a2902b372, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_VR_Controllers
+    second: {fileID: 2100000, guid: 57729ae167dce7344a8790995eea9352, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_VR_Headset
+    second: {fileID: 2100000, guid: c37da403c722ccc4cbaa9546a8ae904c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: openPBR_shader1
+    second: {fileID: 2100000, guid: 0cb00c2a328a94745b565cffa9e221fb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -8,22 +8,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: VRHeadsetRig_base_BodyMechanic_Rigv4_model_lambert2
-    second: {fileID: 2100000, guid: 232d991667ead2044a3fbde8908dd80d, type: 2}
+    second: {fileID: 2100000, guid: 3f5ee750bbaf28c45b569e5891826e2b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: VRHeadsetRig_base_BodyMechanic_Rigv5_model_lambert2
-    second: {fileID: 2100000, guid: 3f2ea6ec0344f9546bc269ffcb5f2961, type: 2}
+    second: {fileID: 2100000, guid: 3f5ee750bbaf28c45b569e5891826e2b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: VRHeadsetRig_base_Mat_Elite_Strap
-    second: {fileID: 2100000, guid: b88b28ab1afca42419e8712bc95d41e4, type: 2}
+    second: {fileID: 2100000, guid: 2f996102d59058440bb4d85a2902b372, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: VRHeadsetRig_base_Mat_VR_Headset
-    second: {fileID: 2100000, guid: ec78b8d1e902a0849b1b7f7a961ad031, type: 2}
+    second: {fileID: 2100000, guid: c37da403c722ccc4cbaa9546a8ae904c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
