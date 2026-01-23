@@ -446,6 +446,22 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 150
       objectReference: {fileID: 0}
+    - target: {fileID: 2713825266304097137, guid: dfc7d41e540d78245b2a2c34e191a95c, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2713825266304097137, guid: dfc7d41e540d78245b2a2c34e191a95c, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2713825266304097137, guid: dfc7d41e540d78245b2a2c34e191a95c, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2713825266304097137, guid: dfc7d41e540d78245b2a2c34e191a95c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4710687239922103080, guid: dfc7d41e540d78245b2a2c34e191a95c, type: 3}
       propertyPath: m_Name
       value: Line Indicator
@@ -568,6 +584,22 @@ PrefabInstance:
     - target: {fileID: 2713825266304097137, guid: dfc7d41e540d78245b2a2c34e191a95c, type: 3}
       propertyPath: m_fontSize
       value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2713825266304097137, guid: dfc7d41e540d78245b2a2c34e191a95c, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2713825266304097137, guid: dfc7d41e540d78245b2a2c34e191a95c, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2713825266304097137, guid: dfc7d41e540d78245b2a2c34e191a95c, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2713825266304097137, guid: dfc7d41e540d78245b2a2c34e191a95c, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4710687239922103080, guid: dfc7d41e540d78245b2a2c34e191a95c, type: 3}
       propertyPath: m_Name
