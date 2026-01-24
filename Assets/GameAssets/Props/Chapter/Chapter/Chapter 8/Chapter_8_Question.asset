@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31b0e986ff47d1c409887de990af3c2e, type: 3}
   m_Name: Chapter_8_Question
   m_EditorClassIdentifier: 
-  QuestionText: Welke opties helpen niet tegen VR misselijkheid?
+  QuestionText: Welke opties helpen NIET tegen VR misselijkheid?
   Answers:
   - {fileID: 11400000, guid: cf70d90560eb3e34cbb62b0dcd1bfd3d, type: 2}
   - {fileID: 11400000, guid: fc816ca173e165044a37b6ab757dbd78, type: 2}
