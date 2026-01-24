@@ -594,7 +594,7 @@ MonoBehaviour:
   _questionText: {fileID: 3017650671989523787}
   _audioSource: {fileID: 3952476713047674203}
   _clickToContinueScreen: {fileID: 3316487791649334212}
-  _delayBeforeFinishingChapter: 5
+  _delayBeforeFinishingChapter: 1
 --- !u!82 &3952476713047674203
 AudioSource:
   m_ObjectHideFlags: 0
