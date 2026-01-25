@@ -554,7 +554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.5590439, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.3569367, b: 0.6320754, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -592,7 +592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _imageToLerp: {fileID: 841225750}
-  _defaultColor: {r: 0, g: 0.56078434, b: 1, a: 1}
+  _defaultColor: {r: 0, g: 0.36078432, b: 0.63529414, a: 1}
 --- !u!1 &892070822
 GameObject:
   m_ObjectHideFlags: 0
