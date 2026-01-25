@@ -1155,8 +1155,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _amountToDimBy: 0.5
   _dimSpeedInSeconds: 3
-  _colorToLerpTo_1: {r: 1, g: 0.19680883, b: 0.16509432, a: 1}
-  _colorToLerpTo_2: {r: 0.16470587, g: 0.57078075, b: 1, a: 1}
+  _colorToLerpTo_1: {r: 0.94509804, g: 0.37895674, b: 0.254902, a: 1}
+  _colorToLerpTo_2: {r: 0.23113209, g: 0.78196585, b: 1, a: 1}
   _colorLerpSpeedInSeconds_1: 1
   _colorLerpSpeedInSeconds_2: 4
 --- !u!114 &8752620988044499313 stripped
